@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_personagem_parado_cima_strip6_0: -3268243631256263232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

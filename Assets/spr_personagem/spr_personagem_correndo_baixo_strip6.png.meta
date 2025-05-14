@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_personagem_correndo_baixo_strip6_0: -5951950632062472419
+      spr_personagem_correndo_baixo_strip6_1: 3780364367599524576
+      spr_personagem_correndo_baixo_strip6_2: -8705107894481872858
+      spr_personagem_correndo_baixo_strip6_3: 6474956622264367644
+      spr_personagem_correndo_baixo_strip6_4: 185110296020812335
+      spr_personagem_correndo_baixo_strip6_5: -4821425369836672619
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

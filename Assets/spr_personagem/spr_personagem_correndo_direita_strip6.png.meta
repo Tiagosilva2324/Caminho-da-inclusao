@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_personagem_correndo_direita_strip6_0: 2599005485830598537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

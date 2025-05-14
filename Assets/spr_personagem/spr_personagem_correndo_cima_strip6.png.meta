@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_personagem_correndo_cima_strip6_0: 3974416272218622724
+      spr_personagem_correndo_cima_strip6_1: -5960799093930142443
+      spr_personagem_correndo_cima_strip6_2: -5016721115953998176
+      spr_personagem_correndo_cima_strip6_3: -8178514884497887499
+      spr_personagem_correndo_cima_strip6_4: -7073503730861745970
+      spr_personagem_correndo_cima_strip6_5: -9044011361870999180
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_personagem_parado_direita_strip6_0: 906636922042708624
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

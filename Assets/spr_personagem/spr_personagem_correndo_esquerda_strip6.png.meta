@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_personagem_correndo_esquerda_strip6_0: 889350103837467710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
