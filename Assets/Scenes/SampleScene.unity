@@ -49790,7 +49790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerAnimator: {fileID: 871128136}
-  speed: 25
+  speed: 10
 --- !u!1 &1653078089
 GameObject:
   m_ObjectHideFlags: 0
