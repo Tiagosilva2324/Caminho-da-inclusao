@@ -28,4 +28,5 @@ public class Animation : MonoBehaviour
         }
         playerAnimator.SetBool("isWalking", isWalking);
     }
+
 }
