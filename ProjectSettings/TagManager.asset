@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - Coletaveis
+  - Porta
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Porta
   - Water
   - UI
   - 
