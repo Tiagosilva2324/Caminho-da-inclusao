@@ -34,7 +34,7 @@ public class Animation : MonoBehaviour
     {
         if (collision.gameObject.layer == 3)
         {
-            SceneManager.LoadScene("Cenaprincipal");
+            SceneManager.LoadScene("Dentrodaescola");
         }        
     }
 
