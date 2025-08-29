@@ -9,6 +9,7 @@ public class Animation : MonoBehaviour
     float input_y = 0;
     bool isWalking = false;
     public float speed;
+    public Rigidbody2D rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,11 +23,17 @@ public class Animation : MonoBehaviour
         input_y = Input.GetAxisRaw("Vertical");
         isWalking = (input_x != 0 || input_y != 0);
 
-        if (isWalking) { 
-        var move = new Vector3(input_x, input_y, 0).normalized;
-            transform.position += move * speed * Time.deltaTime;
+        if (isWalking)
+        {
+            var move = new Vector3(input_x, input_y, 0).normalized;
+            rb.linearVelocity = new Vector2(input_x * speed, input_y * speed);
+            //transform.position += move * speed * Time.deltaTime;
             playerAnimator.SetFloat("input_x", input_x);
             playerAnimator.SetFloat("input_y", input_y);
+        }
+        else {
+            rb.linearVelocity = Vector3.zero;
+        
         }
         playerAnimator.SetBool("isWalking", isWalking);
     }
