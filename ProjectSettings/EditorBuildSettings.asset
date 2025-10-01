@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Cenaprincipal.unity
+    path: Assets/Scenes/Fora.unity
     guid: 641088f31207f944d9fa9dcfc55bd107
   - enabled: 1
     path: Assets/Scenes/Dentrodaescola.unity

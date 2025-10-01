@@ -42,7 +42,11 @@ public class Animation : MonoBehaviour
         if (collision.gameObject.layer == 3)
         {
             SceneManager.LoadScene("Dentrodaescola");
-        }        
+        }
+        if (collision.gameObject.layer == 6)
+        {
+            SceneManager.LoadScene("Fora");
+        }
     }
 
 
