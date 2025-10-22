@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InventoryItem: MonoBehaviour,IPointerClickHandler
 {
@@ -17,9 +18,9 @@ public class InventoryItem: MonoBehaviour,IPointerClickHandler
         canvasGroup = GetComponent<CanvasGroup>();
         itemIcon = GetComponent<Image>();
     }
-    public void Initialize(Item item, InventorySlot paerent)                                   
+    public void Initialize(Item item, InventorySlot parent)                                   
     {
-        activeSlot = paerent;
+        activeSlot = parent;
         activeSlot.myItem = this;
         myItem = item;
         itemIcon.sprite = item.sprite;

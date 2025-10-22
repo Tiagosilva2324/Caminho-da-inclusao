@@ -11,7 +11,10 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
     
     public void OnPointerClick(PointerEventData eventData)
     {
-
+        if(eventData.button == PointerEventData.InputButton.Left)
+        {
+            // TOdo
+        }
     }
 
 
