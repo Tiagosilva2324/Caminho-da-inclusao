@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class Inventory : MonoBehaviour
@@ -35,9 +36,15 @@ public class Inventory : MonoBehaviour
             if (item.activeSlot.myTag != SlotTag.None && item.activeSlot.myTag != carriedItem.myItem.itemTag)
             {
 
-
+                return;
 
             }
+            item.activeSlot.SetItem(carriedItem);
+        }
+
+        if(item.activeSlot.myTag != SlotTag.None)
+        {
+
 
         }
     }
