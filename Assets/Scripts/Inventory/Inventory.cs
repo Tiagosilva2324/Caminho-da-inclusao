@@ -42,11 +42,19 @@ public class Inventory : MonoBehaviour
             item.activeSlot.SetItem(carriedItem);
         }
 
-        if(item.activeSlot.myTag != SlotTag.None)
+        //if(item.activeSlot.myTag != SlotTag.None)
         {
-
+           // EquipEquipment(item.activeSlot.myTag, null);
 
         }
+
+        carriedItem = item;
+        carriedItem.canvasGroup.blocksRaycasts = false;
+        item.transform.SetParent(draggablesTransform);
+
     }
+    //void EquipEquipment(SlotTag tag, InventoryItem iten = null)
+
+
 
 }
