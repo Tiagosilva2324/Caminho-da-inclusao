@@ -13,13 +13,30 @@ public class InventorySlot : MonoBehaviour, IPointerClickHandler
     {
         if(eventData.button == PointerEventData.InputButton.Left)
         {
-            // TOdo
+            if (Inventory.carriedItem == null) 
+            {
+                return;
+            
+            }
+
+            if (myTag != SlotTag.None && Inventory.carriedItem.myItem.itemTag != myTag) {
+
+                return;
+            }
+
+            SetItem(Inventory.carriedItem);
         }
     }
 
 
     public void  SetItem(InventoryItem item)
     {
+        Inventory.carriedItem = null;
+        item.activeSlot.myItem = null;
+        myItem = item;
+        myItem.activeSlot = this;
+        myItem.transform.SetParent(transform);
+        myItem.canvasGroup.blocksRaycasts = true;
 
     }
 }
