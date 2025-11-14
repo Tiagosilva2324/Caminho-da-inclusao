@@ -10,6 +10,8 @@ public class Animation : MonoBehaviour
     bool isWalking = false;
     public float speed;
     public Rigidbody2D rb;
+    public KeyCode InventoryKey = KeyCode.Q;
+    public GameObject inventoryPanel; 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -36,6 +38,11 @@ public class Animation : MonoBehaviour
         
         }
         playerAnimator.SetBool("isWalking", isWalking);
+
+        if (Input.GetKeyDown(InventoryKey))
+        {
+            inventoryPanel.SetActive(!inventoryPanel.activeSelf);
+        }
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

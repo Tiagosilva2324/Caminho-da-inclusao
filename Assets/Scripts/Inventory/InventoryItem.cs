@@ -33,6 +33,10 @@ public class InventoryItem: MonoBehaviour,IPointerClickHandler
         {
             Inventory.Singleton.SetCarriedItem(this);
         }
+        else if(eventData.button == PointerEventData.InputButton.Right)
+        {
+            Inventory.Singleton.DropItem(this);
+        }
     }
   
 }
