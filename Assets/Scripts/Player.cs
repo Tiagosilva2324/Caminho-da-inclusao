@@ -39,10 +39,6 @@ public class Animation : MonoBehaviour
         }
         playerAnimator.SetBool("isWalking", isWalking);
 
-        if (Input.GetKeyDown(InventoryKey))
-        {
-            inventoryPanel.SetActive(!inventoryPanel.activeSelf);
-        }
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

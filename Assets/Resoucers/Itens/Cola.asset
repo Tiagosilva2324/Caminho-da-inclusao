@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be7b9b0b65d6cb54cb1831f5b407a426, type: 3}
+  m_Script: {fileID: 11500000, guid: 8697674f29f22ff4e9381b709bbbd361, type: 3}
   m_Name: Cola
   m_EditorClassIdentifier: 
-  sprite: {fileID: -2000758804615259028, guid: ec305278385a7ab4680ab4adde60efa1, type: 3}
-  itemTag: 0
-  prefab: {fileID: 5108246485542325731, guid: 43391046c24347a479eba0e7f4b37936, type: 3}
+  itemName: Cola
+  itemSprite: {fileID: -2000758804615259028, guid: ec305278385a7ab4680ab4adde60efa1, type: 3}
