@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cb79992b65bf6db409f870da6ee08cdf
+guid: 0d7a1ec35d7ad6442b04d5b06e7ccc96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7134539072534641168
-    second: oficina 1_0
+      213: 1248784056254802929
+    second: image (3)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oficina 1_0
+      name: image (3)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 751
-        height: 253
+        width: 522
+        height: 800
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 01a729e6c79f20360800000000000000
-      internalID: 7134539072534641168
+      spriteID: 1fb2d3a9b72945110800000000000000
+      internalID: 1248784056254802929
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      oficina 1_0: 7134539072534641168
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
